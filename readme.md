@@ -1,6 +1,6 @@
-# Corso Website
+# Courso Website
 
-Bootstrap website for training courses, workshops, seminars, etc. It has a mixed design with both light and dark colors and a modern look.
+Bootstrap 5 landing website for an online learning platform. It has a mixed design with both light and dark colors and a modern look.
 
 ## Features
 
