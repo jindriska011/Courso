@@ -1,0 +1,41 @@
+header{
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../images/header-background-2.jpg') center center no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+}
+
+header .slide{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.invitation-bg{
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../images/invitation-background-2.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    transition: all 0.8s ease-in-out;
+}
+
+
+@media only screen and (max-width:1200px){
+
+    header{
+        height: 800px !important;
+        min-height: 800px !important;
+    }
+
+    .navbar{
+        background: var(--bs-dark);
+    }
+
+    .registration h2{
+        text-align: center;
+    }
+
+    .summary{
+        width: 90% !important;
+    }
+}
+    

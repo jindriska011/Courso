@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>Corso Training</title>
+  </head>
+  <body id="home">
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-xl fixed-top navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="./images/logo-2.png" alt="logo" width="150">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavDropdown" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#discover" class="nav-link">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#takeaways" class="nav-link">Takeaways</a>
+            </li>
+            <li class="nav-item">
+              <a href="#subscribe" class="nav-link">Subscribe</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!--Hero-->
+    <header class="header py-7 vh-100">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col-12 text-container">
+            <h1 class="display-2 text-white mt-3">
+              Explore Our Training and Seminar Videos!
+            </h1>
+            <p class="lead text-white w-lg-75 w-100 m-auto mb-4">
+              Courso is your one-stop destination for unlocking your true potential through a diverse array of high-quality, 
+              specialized professional online courses and seminars. No matter your age or background, we have something exceptional in store for you.
+            </p>
+            <a href="#register" class="btn btn-primary text-uppercase">Register</a>
+            <a href="#discover" class="btn btn-outline-light text-uppercase">Discover</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 image-container">
+
+            <!--Carousel-->
+            <div id="slider" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner rounded-5">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 rounded-5" src="./images/header-slide-1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 rounded-5" src="./images/header-slide-2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 rounded" src="./images/header-slide-3.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#slider" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#slider" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Registration-->
+    <section class="registration bg-primary pt-lg-8 pt-5 pb-6 overflow-hidden">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-lg-6 d-flex vstack justify-content-center">
+            <h2 class="h2">
+              Unlock your Potential with Engaging Content!
+            </h2>
+            <p>Are you ready to take charge of your career and achieve extraordinary success? 
+              Look no further! Welcome to our cutting-edge virtual learning platform, where knowledge meets innovation.
+            </p>
+            <ul class="list-unstyled vstack gap-3">
+              <li>
+                <i class="fas fa-square"></i>
+                <strong>Expert Instructors: </strong>
+                Learn from the best in the industry! Our courses are led by seasoned professionals and thought leaders, 
+                ensuring you gain insights that go beyond textbooks.
+              </li>
+              <li>
+                <i class="fas fa-square"></i>
+                <strong>Flexible Learning: </strong>
+                Tailor your learning experience to fit your schedule. Access our courses and seminars anytime, 
+                anywhere, and on any device. Say goodbye to rigid timetables!
+              </li>
+              <li>
+                <i class="fas fa-square"></i>
+                <strong>Interactive Learning: </strong>
+                Engage, participate, and collaborate! Our interactive learning tools foster active discussions 
+                and hands-on experiences, making your learning journey enjoyable and effective.
+              </li>
+              <li>
+                <i class="fas fa-square"></i>
+                <strong>Career Advancement: </strong>
+                Propel your career to new heights! Acquire in-demand skills and certifications that will 
+                set you apart in a competitive job market.
+              </li>
+            </ul>
+  
+          </div>
+          <div class="col-lg-6 py-4 py-lg-0 ">
+            <h2 id="register" class="h2">
+              Register here to get access to our courses!
+            </h2>
+            <form>
+              <div class="my-4">
+                <input type="text" class="form-control form-control-lg border-0 rounded-0" placeholder="Enter name"/>
+              </div>
+              <div class="my-4">
+                <input type="email" class="form-control form-control-lg border-0 rounded-0" placeholder="Enter email"/>
+              </div>
+              <div class="my-4">
+                <input type="text" class="form-control form-control-lg border-0 rounded-0" placeholder="Enter phone number"/>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" value="">
+                <label for="terms" class="form-check-label"> I agree to the terms and conditions.</label>
+              </div>
+              <div class="d-grid mt-4">
+                <button class="btn btn-outline-dark">
+                  Register
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Details 1-->
+    <section id="discover" class="details py-6 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 py-3">
+            <img src="./images/instructor.jpg" alt="instructor" class="img-fluid rounded-5 mb-4">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h2 class="h2">
+              Enhance Your Skills with Engaging Training Videos
+            </h2>
+            <p>Are you ready to take charge of your career and achieve extraordinary success? 
+              Look no further! Welcome to our cutting-edge virtual learning platform, where knowledge meets innovation.
+            </p>
+            <p>Explore an extensive range of specialized courses and seminars designed to cater to your individual 
+            interests and professional goals. From cutting-edge technologies to leadership development, we've got you covered!
+            </p>
+            <p>Empower yourself with knowledge and unlock your potential with our premium online courses and seminars. 
+            Join thousands of successful learners who have already transformed their lives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Points-->
+    <section class="points pb-5">
+      <div class="container">
+        <div class="row text-center pb-5">
+          <div class="col-md-8 offset-md-2">
+            <h2 class="h2">
+              Discover a Treasure Trove of Knowledge with Our Carefully Curated Courses and Seminars
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="d-flex gap-3">
+              <div class="number">
+                <span class="bg-primary py-2 px-4 fs-3 rounded-circle ">
+                  1
+                </span>
+              </div>
+              <div class="text">
+                <h3 class="fs-4">
+                  Enhance Your Skills
+                </h3>
+                <p> The knowledge you seek is just a click away. Propel your career to new heights! Acquire in-demand skills and certifications that will set you apart in a competitive job market.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="d-flex gap-3">
+              <div class="number">
+                <span class="bg-primary py-2 px-4 fs-3 rounded-circle ">
+                  2
+                </span>
+              </div>
+              <div class="text">
+                <h3 class="fs-4">
+                  Stay Updated
+                </h3>
+                <p> Engage, participate, and collaborate! Our interactive learning tools foster active discussions and hands-on experiences, making your learning journey enjoyable and effective.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="d-flex gap-3">
+              <div class="number">
+                <span class="bg-primary py-2 px-4 fs-3 rounded-circle ">
+                  3
+                </span>
+              </div>
+              <div class="text">
+                <h3 class="fs-4">
+                  Connect with Experts
+                </h3>
+                <p> Learn from the best in the industry! Our courses are led by seasoned professionals and thought leaders, ensuring you gain insights that go beyond textbooks.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="d-flex gap-3">
+              <div class="number">
+                <span class="bg-primary py-2 px-4 fs-3 rounded-circle ">
+                  4
+                </span>
+              </div>
+              <div class="text">
+                <h3 class="fs-4">
+                  Flexible Learning
+                </h3>
+                <p> Life is busy, but that shouldn't hinder your growth. Study at your pace and on your schedule. Our online platform allows you to access course material anytime, anywhere.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="d-flex gap-3">
+              <div class="number">
+                <span class="bg-primary py-2 px-4 fs-3 rounded-circle ">
+                  5
+                </span>
+              </div>
+              <div class="text">
+                <h3 class="fs-4">
+                  Practical Knowledge
+                </h3>
+                <p> From technical skills to leadership development and beyond, choose from an extensive range of result-oriented courses tailored to meet your specific needs and goals.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="d-flex gap-3">
+              <div class="number">
+                <span class="bg-primary py-2 px-4 fs-3 rounded-circle ">
+                  6
+                </span>
+              </div>
+              <div class="text">
+                <h3 class="fs-4">
+                  Continuous Learning
+                </h3>
+                <p> Whether you are a seasoned professional seeking career advancement or a curious learner seeking new knowledge, we have something for everyone.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+    <!--Summary-->
+    <section id="summary" class="summary bg-light my-3 my-lg-5 w-75 m-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center ">
+              Courso Summary
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="bg-white rounded-5 m-5 p-5">
+              <ul class="list-unstyled">
+                <li class="border-bottom py-3">
+                  <h5>1. Comprehensive Trainings</h5>
+                  <p>Courso is a comprehensive online learning platform offering a wide range of high-quality specialized professional courses and seminars.</p>
+                </li>
+                <li class="border-bottom py-3">
+                  <h5>2. Expert Instructors</h5>
+                  <p>With expert instructors, cutting-edge learning technology, and flexible scheduling, Courso empowers 
+                    highly motivated learners of all ages to pursue their passions and achieve career excellence.</p>
+                </li>
+                <li class=" pt-3">
+                  <h5>3. Supportive Community</h5>
+                  <p>Join a thriving community of like-minded individuals and gain industry-recognized certifications, 
+                    all while enjoying the convenience of learning at your own pace from anywhere in the world.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Details 2-->
+    <section class="details bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 py-3">
+            <img src="./images/audience.jpg" alt="instructor" class="img-fluid rounded-5 mb-4">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h2 class="h2">
+              Elevate Your Learning Journey with Expert Seminars
+            </h2>
+            <p>Discover a treasure trove of knowledge with our carefully curated courses and seminars. 
+              Whether you are a seasoned professional seeking career advancement or a curious learner hungry for new knowledge, we have something for everyone.
+            </p>
+            <p>The path to greatness begins with a single step. Don't miss this opportunity to invest in your future. 
+              Enroll in a course today and witness the transformation firsthand.
+            </p>
+            <p>As a special welcome gift, we are offering an exclusive 15% discount on all courses. 
+              Grab this opportunity to unleash your full potential at an unbeatable value.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Invitation-->
+    <section class="invitation my-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="invitation-bg text-center py-6 rounded-5">
+              <div class="text-white w-75 m-auto">
+                <h2 class="display-5 fw-bold">
+                  Join Us on August 22nd
+                </h2>
+                <p>
+                  The future of your dreams is just a few clicks away. Embrace the path to success and self-discovery with Courso. 
+                  Join our upcoming course on <strong> Digital Marketing Mastery </strong> and unleash the power of online marketing 
+                  and skyrocket your brand's success in the digital landscape. Equip yourself with the skills and confidence to conquer interviews and excel in your dream job.
+                </p>
+                <a href="#register" class="btn btn-lg btn-primary">Register Now</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Takeways-->
+    <section id="takeaways" class="takeaways bg-light my-5">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col-md-8 offset-md-2">
+            <h2 class="h2">
+              Key Takeaways
+            </h2>
+            <p class="lead">
+              With expert instructors, cutting-edge learning technology, and flexible scheduling, Courso empowers highly motivated learners 
+              of all ages to pursue their passions and achieve career excellence.
+            </p>
+          </div>
+        </div>
+
+        <!-- Row 1 -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 rounded-0 border-0 p-3">
+              <div class="card-body text-center">
+                <i
+                  class="fas fa-atom fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                ></i>
+                <h5 class="card-title">Comprehensive Catalogue</h5>
+                <p class="card-text">
+                  Our extensive collection of online courses and seminars covers a wide range of in-demand fields. 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 rounded-0 border-0 p-3">
+              <div class="card-body text-center">
+                <i
+                  class="fas fa-key fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                ></i>
+                <h5 class="card-title">Cutting-edge Platform </h5>
+                <p class="card-text">
+                  Our immersive virtual classrooms, interactive quizzes and projects ensure an engaging and effective learning journey.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 rounded-0 border-0 p-3">
+              <div class="card-body text-center">
+                <i
+                  class="fas fa-newspaper fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                ></i>
+                <h5 class="card-title">Flexibility</h5>
+                <p class="card-text">
+                  Our courses are designed to accommodate your schedule, enabling you to learn at your own pace, anytime, anywhere.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Row -->
+          <div class="col-md-4">
+            <div class="card mb-4 rounded-0 border-0 p-3">
+              <div class="card-body text-center">
+                <i
+                  class="fas fa-users fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                ></i>
+                <h5 class="card-title">Collaborative Networking</h5>
+                <p class="card-text">
+                  Connect with professionals from diverse backgrounds and
+                  industries to foster collaboration and learning.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 rounded-0 border-0 p-3">
+              <div class="card-body text-center">
+                <i
+                  class="fas fa-handshake fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                ></i>
+                <h5 class="card-title">Recognized Certifications</h5>
+                <p class="card-text">
+                  You'll earn industry-recognized 
+                  certifications that can enhance your employability and career prospects
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 rounded-0 border-0 p-3">
+              <div class="card-body text-center">
+                <i
+                  class="fas fa-chart-bar fa-3x text-primary bg-light rounded-circle p-3 my-4"
+                ></i>
+                <h5 class="card-title">Personalized Pathways</h5>
+                <p class="card-text">
+                  Our experts will assist you in creating a tailored learning roadmap that aligns with your ambitions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Subscribe & Footer-->
+
+    <section id="subscribe" class="subscribe my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center">
+            <h2 class="h2">Subscribe to our email list and get updates from the experts!</h2>
+            <form>
+              <div class="my-4">
+                <input type="email" class="form-control form-control-lg" placeholder="Enter email">
+                <div class="form-text">We don't share your email with third parties!</div>
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-lg btn-primary">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mt-4 text-bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About Courso</h5>
+            <p>Courso is a comprehensive online learning platform offering a wide range of high-quality specialized professional courses and seminars.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#register">Register</a></li>
+              <li><a href="#discover">Discover</a></li>
+              <li><a href="#summary">Summary</a></li>
+              <li><a href="#takeaways">Takeaways</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Connect</h5>
+            <div class="d-flex gap-3">
+              <a href="#"><i class="fab fa-facebook fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-discord fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-3x text-white"></i></a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
